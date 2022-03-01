@@ -83,7 +83,7 @@ Registers are 32-bit wide (1 word)
 
 syntax of instruction in risc-v
 
-<OpCode> <Destination Register> <Source Register1> <Source Register 2>
+>> <OpCode> <Destination Register> <Source Register1> <Source Register 2>
 
 ```
 add rd, rs1, rs2
