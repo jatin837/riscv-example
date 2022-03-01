@@ -53,4 +53,18 @@ May 2014: the base user spec released after many iterations.
 
 
 # RISC-V ISA
+RV N (Extension Letter)
 
+Base ISAs:
+- RV32E(2 registers of 16 bit)
+- RV32I
+- RV64I
+- RV128I
+
+
+Standard Extensions:
+- M: Math
+- A: Atomic Ops
+- F: Floating Point
+- D: Double Precision FP
+- G: General Purpose
