@@ -68,3 +68,24 @@ Standard Extensions:
 - F: Floating Point
 - D: Double Precision FP
 - G: General Purpose
+
+
+# Implementation
+
+This example uses RV32I
+
+**RV32I**: RISC-V 32-bit integer ISA
+Registers: x0 - x31 (x0 is hardwired to 0)
+Registers are 32-bit wide (1 word)
+32-bit address space
+
+### First Instruction
+
+syntax of instruction in risc-v
+
+<OpCode> <Destination Register> <Source Register1> <Source Register 2>
+
+```
+add rd, rs1, rs2
+```
+
